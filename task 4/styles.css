@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family:    'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #99bfcc79;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #f5f1f1;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.home-section {
+        background: url( ) no-repeat center center/cover;
+        color: #0e1111;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px; 
+    }
+    
+}
+
+
+.home-section .home-content {
+    text-align: center;
+}
+
+.home-section img {
+    border-radius: 30%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.about-section, .skills-section, .projects-section, .contact-section {
+    background-color: #fff;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+.project a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+    position: ;
+    bottom: 0;
+    width: 100%;
+}
